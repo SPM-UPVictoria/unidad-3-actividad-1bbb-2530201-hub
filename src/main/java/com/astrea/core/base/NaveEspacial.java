@@ -14,23 +14,23 @@ public abstract class NaveEspacial {
     }
 
     public void repostarCombustible(double cantidad) throws AstreaException {
-        // TODO: Implementar lógica
+        return cantidad;// TODO: Implementar lógica
     }
 
     public String getMatricula() {
-        return null; // TODO: Implementar
+        return matricula; // TODO: Implementar
     }
 
     public String getModelo() {
-        return null; // TODO: Implementar
+        return modelo; // TODO: Implementar
     }
 
     public double getCombustible() {
-        return 0.0; // TODO: Implementar
+        return combustible; // TODO: Implementar
     }
 
     public double getCapacidadCombustible() {
-        return 0.0; // TODO: Implementar
+        return capacidadCombustible; // TODO: Implementar
     }
 
     public abstract void viajar(double distanciaAniosLuz) throws CombustibleInsuficienteException, AstreaException;

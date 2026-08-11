@@ -10,19 +10,20 @@ public class NaveCarga extends NaveEspacial {
 
     public NaveCarga(String matricula, String modelo, double combustibleInicial, double capacidadCombustible, double cargaMaxima) throws AstreaException {
         super(matricula, modelo, combustibleInicial, capacidadCombustible);
-        // TODO: Implementar validación y asignación
-    }
+        this.cargaActual = cargaActual;  // TODO: Implementar validación y asignación
+		this.cargaMaxima = cargaMaxima;
+	}
 
     public void cargar(double cantidad) throws AstreaException {
         // TODO: Implementar lógica
     }
 
     public double getCargaActual() {
-        return 0.0; // TODO: Implementar
+        return cargaActual; // TODO: Implementar
     }
 
     public double getCargaMaxima() {
-        return 0.0; // TODO: Implementar
+        return cargaMaxima; // TODO: Implementar
     }
 
     @Override

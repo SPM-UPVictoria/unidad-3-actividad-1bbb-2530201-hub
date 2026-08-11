@@ -13,15 +13,16 @@ public class NaveCombate extends NaveEspacial implements Defendible, Atacable {
 
     public NaveCombate(String matricula, String modelo, double combustibleInicial, double capacidadCombustible, double potenciaArma) throws AstreaException {
         super(matricula, modelo, combustibleInicial, capacidadCombustible);
-        // TODO: Implementar asignación
+        this.integridadEscudo = integridadEscudo; // TODO: Implementar asignación
+		this.potenciaArma = potenciaArma;
     }
 
     public double getIntegridadEscudo() {
-        return 0.0; // TODO: Implementar
+        return integridadEscudo; // TODO: Implementar
     }
 
     public double getPotenciaArma() {
-        return 0.0; // TODO: Implementar
+        return potenciaArma; // TODO: Implementar
     }
 
     @Override

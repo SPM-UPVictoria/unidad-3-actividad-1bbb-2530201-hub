@@ -79,7 +79,7 @@
         <artifactId>exec-maven-plugin</artifactId>
         <version>3.1.1</version>
         <configuration>
-          <mainClass>upvictoria.spolancom.App</mainClass>
+          <mainClass>upvictoria.spolancom.AppTest</mainClass>
         </configuration>
       </plugin>
       </plugins>
